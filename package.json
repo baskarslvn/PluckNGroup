@@ -1,0 +1,19 @@
+{
+  "name": "pluckngroup",
+  "version": "1.0.0",
+  "description": "A tiny util library to pluck and group data at one loop (used to remove boilerplate codes)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "baskarslvn",
+    "pluck",
+    "groupby",
+    "multi",
+    "groupby"
+  ],
+  "author": "R Baskar Selvan",
+  "license": "MIT"
+}

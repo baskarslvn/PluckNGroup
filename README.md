@@ -5,16 +5,16 @@
 
 # Sample inputs and outputs
 
-1)Input
+# 1)Input
  const arrayOfObjects = [{apple:1, ball:2, cat:3, dog: "hi"}, {apple:4, ball:5, cat:6, dog: "bye"}];
  const toPluckKeys = ['apple','ball'];
  const groupByTheseKeysIndividually = ['apple', 'ball'];
  const groupByCombinningTheseKeys = ['cat','dog']; 
 
-2)Function call
+# 2)Function call
  pluckAndGroup(arrayOfObjects, toPluckKeys, groupByTheseKeysIndividually, groupByCombinningTheseKeys)));
 
-3)Output
+# 3)Output
 {
     "pluckedData":{"balls":["2","5"],"apples":["1","4"]},
     "groupedByData":{
