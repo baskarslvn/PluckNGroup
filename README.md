@@ -32,8 +32,8 @@
     },
     "gropedByMultiKeyData": {
         "cat_dogmultiGrp":  {
-          "6_bye":  {
-            "apple":4,"ball":5,"cat":6,"dog":"bye"},"3_hi":{"apple":1,"ball":2,"cat":3,"dog":"hi"}
+          "6_bye":  {"apple":4,"ball":5,"cat":6,"dog":"bye"},
+            "3_hi":{"apple":1,"ball":2,"cat":3,"dog":"hi"}
         }
     }
 }
