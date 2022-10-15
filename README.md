@@ -1,4 +1,4 @@
-# PluckNGroup
+# pluckngrouparray
 
 ### To pluck and group data from an array of objects in javascript in a single loop (used to remove boilerplate codes)
   *We can pluck any number of keys, group the array using any number of keys or even group using multiple key combimations*
@@ -44,5 +44,5 @@ Installation is done using the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```bash
-$ npm install pluckngroup
+$ npm install pluckngrouparray
 ```
