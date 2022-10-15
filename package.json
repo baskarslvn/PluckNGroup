@@ -1,7 +1,7 @@
 {
   "name": "pluckngroup",
   "version": "1.0.0",
-  "description": "A tiny util library to pluck and group data at one loop (used to remove boilerplate codes)",
+  "description": "A small utility for nodejs to pluck and group keys from array of objects at one loop (used to remove boilerplate codes)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

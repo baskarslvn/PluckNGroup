@@ -1,15 +1,24 @@
 /**
- * A tiny util library to pluck and group data at one loop (used to remove boilerplate codes)
+ * @file
+ * A small utility for nodejs to pluck and group keys from array of objects at one loop (used to remove boilerplate codes)
+ * @licence MIT Licensed
  * Copyright(c) 2021 Baskar Selvan R
- * MIT Licensed
 */
 'use strict';
 /**
+ * @typedef {Object} pluckedGroupedData
+ * @property {Object} pluckedData
+ * @property {Object} groupedByData
+ * @property {Object} gropedByMultiKeyData
+ */
+/**
  * To pluck and group data at one loop (used to remove boilerplate codes)
- * @param {Array} arrayOfObjects 
- * @param {Array} pluckKeys 
- * @param {Array} groupByKeys 
- * @returns {Object} pluckedGroupedData
+ * @param {Array} arrayOfObjects The array of objects to be processed
+ * @param {String[]} [pluckKeys=[]] The keys to be plucked
+ * @param {String[]} [groupByKeys=[]] the keys by which the given array should be grouped separately
+ * @param {String[]} [groupByMultiKeys=[]] the keys which are combined and then used to group the given array
+ * @returns {pluckedGroupedData} pluckedGroupedData
+ * @access public
  */
 exports.pluckAndGroup = (arrayOfObjects = {}, pluckKeys = [], groupByKeys = [], groupByMultiKeys = []) => {
     const pluckedData = {};
