@@ -1,6 +1,6 @@
 {
   "name": "pluckngroup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small utility for nodejs to pluck and group keys from array of objects at one loop (used to remove boilerplate codes)",
   "main": "index.js",
   "scripts": {
